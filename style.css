@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(24, 25, 26);
+    overflow-x: hidden;
+}
+
+.main{
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.container{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    max-height: 400px;
+    width: 600px;
+    background: rgb(39,83,142);
+    border-radius: 5px;
+}
+
+.top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.top input{
+    width: 250px;
+    height: 40px;
+    border-radius: 14px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.logo{
+    background: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa{
+    font-size: larger;
+}
+
+.tasks{
+    margin: 20px 0px;
+    padding: 10px;
+    height: calc(100% - 90px);
+    overflow-y: scroll;
+}
+
+.task{
+    margin: 10px 25px;
+    background: rgb(124,111,160);
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+    color: bisque;
+    border-radius: 5px;
+}
+
+.task .trash{
+    border-radius: 50%;
+    float: right;
+}
+
+.footer{
+    width: 100vw;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    left: 89%;
+}
